@@ -1,0 +1,71 @@
+
+
+:root {
+    --primary-color:white;
+    --secondary-color: grey;
+    --hover-color:antiquewhite;
+}
+.top-nav{
+    height: 80px;
+    width:auto;
+    background-color: var(--secondary-color);
+
+}
+.background{
+    background-color:gainsboro;
+    height: 700px;
+    width: auto;
+}
+.top-nav-content{
+    display: flex;
+    gap: 30px;
+    margin-left: 980px;
+    padding-top: 30px;
+    color: black;
+}
+a{
+    color: var(--primary-color);
+}
+a:hover{
+    color: var(--hover-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1000px);
+    grid-template-rows: repeat(2, 300px);
+    gap:100 px;
+}
+.item{
+    background-color: var(--primary-color);
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+
+}
+
+.img{
+    padding-left: 35px;
+    padding-top: 50px;
+    border-radius:50% ;
+}
+h3{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    background-color: var(--secondary-color);
+    height: 80px;
+    width:auto;
+    margin-top: -22px;
+}
+h5{
+    color: var(--primary-color);
+    padding-left: 50px;
+    padding-top: 20px;
+}
